@@ -1,6 +1,8 @@
 # spider
 a bittorrent spider
 
+![snapshot](./snapshot.jpg)
+
 #### Install
     go get -u github.com/bttown/spider
 
