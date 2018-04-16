@@ -1,5 +1,5 @@
-# spider
-a p2p magnet-link spider
+# magnetlink spider
+a magnet-link spider in p2p.
 一个磁力链接收集器，让你简单快速地收集DHT网络中其他节点下载资源的信息.
 
 
