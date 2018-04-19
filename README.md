@@ -5,8 +5,8 @@ a magnet-link spider in p2p.
 
 
 #### Install && Usage
-    go get -u github.com/bttown/spider
-	go build github.com/bttown/spider
+    go get -u github.com/bttown/torrent-spider
+	go build github.com/bttown/torrent-spider
 	./spider
 
 #### Notice
