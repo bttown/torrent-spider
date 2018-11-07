@@ -7,7 +7,7 @@ a magnet-link spider in p2p.
 #### Install && Usage
     go get -u github.com/bttown/torrent-spider
 	go build github.com/bttown/torrent-spider
-	./spider
+	./torrent-spider
 
 #### Notice
 1. 需要运行在公网服务器上, 否则收集到种子的可能性很小(正好形成UDP打洞)
