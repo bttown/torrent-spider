@@ -43,7 +43,7 @@ var (
 )
 
 func main() {
-	// 新获取种子时调用的Hook
+	// 新获取种子时调用的Hook
 	collector.OnFinish(func(req metadata.Request, torrent metadata.Torrent) {
 		magnetLink := fmt.Sprintf("magnet:?xt=urn:btih:%s", req.HashInfo)
 		log.Println("[Metadata]", magnetLink, torrent.Info.Name)
